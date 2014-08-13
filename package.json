@@ -15,13 +15,18 @@
     "raphael": "~2.1.x"
   },
   "devDependencies": {
-    "//" : "Others include jspp",
-    "jison": "0.4.6",
-    "jshint": "~2.0.x",
-    "uglify-js": "~2.3.x"
+    "del": "^0.1.1",
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-header": "^1.0.5",
+    "gulp-if": "^1.2.4",
+    "gulp-jison": "^1.0.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-sourcemaps": "^1.1.1",
+    "gulp-uglify": "^0.3.1"
   },
   "scripts": {
-    "test": "make test"
+    "test": "gulp lint"
   },
   "repository": {
     "type": "git",
